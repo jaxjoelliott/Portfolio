@@ -128,7 +128,7 @@
       "title": "3D Rubik's Cube Simulator",
       "slug": "rubiks-cube",
       "description": "Interactive 3D simulator with real-time rotation using matrix transformations. Supports 20+ move sequences with undo/redo functionality. Rendered at 60+ FPS through optimized OpenGL pipeline.",
-      "image": "/images/rubiks/rubik1.png",
+      "image": "/images/rubiks/rubiks-demo.gif",
       "gallery": [
         "/images/rubiks/rubik2.png",
         "/images/rubiks/rubik3.png"
