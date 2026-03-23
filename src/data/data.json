@@ -1,257 +1,161 @@
 {
   "theme": "monochrome",
-  "github": "torvalds",
-  "illustration": true,
+  "github": "jaxjoelliott",
+  "illustration": false,
   "profile": {
-    "name": "Lelouch vi Britannia",
-    "handle": "zero",
-    "avatar": "https://imgs.search.brave.com/llxNE6-IlXfe7sZMwozzEt1J3aKGPAZLcfWDMr3L8Vc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDE5/NTQwNC5qcGc",
-    "banner": "https://wallpapercave.com/wp/wp2883490.jpg",
-    "bio": "Revolutionary strategist and tactical genius. Wielder of the Power of Absolute Obedience. Fighting for a world where the weak are not oppressed.",
-    "location": "Area 11 (Japan)",
-    "resumeUrl": "#",
-    "email": "zero@blackknights.org"
+    "name": "Jackson Elliott",
+    "handle": "jaxjoelliott",
+    "avatar": "images/pfp.jfif",
+    "banner": "images/banner.jfif",
+    "bio": "CS Graduate (May 2026) | 3.93 GPA | Full-Stack Developer",
+    "location": "West Palm Beach, FL",
+    "resumeUrl": "resume/Jackson_Elliott_Resume.pdf",
+    "email": "jaxjoelliott@gmail.com"
   },
   "roles": [
-    "Master Strategist",
-    "Revolutionary Leader",
-    "Knightmare Pilot",
-    "Chess Grandmaster",
-    "Geass User"
+    "Software Engineer",
+    "Full-Stack Developer",
+    "CS Graduate"
   ],
   "socials": [
     {
       "name": "GitHub",
-      "url": "https://github.com/zero",
+      "url": "https://github.com/jaxjoelliott",
       "icon": "github"
     },
     {
-      "name": "Twitter",
-      "url": "https://twitter.com/zero",
-      "icon": "twitter"
-    },
-    {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/zero",
+      "url": "https://linkedin.com/in/elliottjacksonj",
       "icon": "linkedin"
     }
   ],
   "skills": [
     {
-      "name": "Strategic Planning",
-      "icon": "brain",
-      "color": "#8B5CF6"
+      "name": "Python",
+      "icon": "code",
+      "color": "#3776AB"
     },
     {
-      "name": "Tactical Analysis",
-      "icon": "target",
-      "color": "#EF4444"
+      "name": "Java",
+      "icon": "code",
+      "color": "#007396"
     },
     {
-      "name": "Leadership",
-      "icon": "crown",
-      "color": "#F59E0B"
+      "name": "C++",
+      "icon": "code",
+      "color": "#00599C"
     },
     {
-      "name": "Chess",
-      "icon": "trophy",
-      "color": "#10B981"
+      "name": "SQL",
+      "icon": "database",
+      "color": "#4479A1"
     },
     {
-      "name": "Knightmare Piloting",
-      "icon": "gamepad",
-      "color": "#3B82F6"
+      "name": "JavaScript",
+      "icon": "code",
+      "color": "#F7DF1E"
     },
     {
-      "name": "Manipulation",
-      "icon": "message",
-      "color": "#EC4899"
+      "name": "React",
+      "icon": "code",
+      "color": "#61DAFB"
     },
     {
-      "name": "Public Speaking",
-      "icon": "mic",
-      "color": "#06B6D4"
+      "name": "Node.js",
+      "icon": "server",
+      "color": "#339933"
     },
     {
-      "name": "Geass Control",
-      "icon": "eye",
-      "color": "#DC2626"
+      "name": "MongoDB",
+      "icon": "database",
+      "color": "#47A248"
+    },
+    {
+      "name": "Git",
+      "icon": "git",
+      "color": "#F05032"
+    },
+    {
+      "name": "OpenGL",
+      "icon": "code",
+      "color": "#5586A4"
     }
   ],
   "experience": [
     {
-      "company": "Black Knights",
-      "role": "Supreme Commander (Zero)",
-      "type": "Leadership",
-      "period": "2017 - 2018 a.t.b.",
-      "location": "Japan / Global",
+      "company": "REDVANLY",
+      "role": "Brand Ambassador Intern",
+      "type": "Internship",
+      "period": "Sep 2025 – Present",
+      "location": "West Palm Beach, FL",
       "details": [
-        "Founded and led the Black Knights resistance organization against Britannian Empire",
-        "Orchestrated the liberation of Japan through strategic military operations",
-        "Unified resistance groups across the globe under a single command structure",
-        "Achieved chairman position of the United Federation of Nations"
+        "Manage daily store operations including merchandising, inventory, and replenishment orders",
+        "Utilize Shopify to track inventory, process orders, and maintain digital product listings",
+        "Lead store readiness for corporate photo shoots and brand marketing events",
+        "Collaborate with Director of Business Development on operational strategy and process improvement"
       ]
     },
     {
-      "company": "Holy Britannian Empire",
-      "role": "99th Emperor",
-      "type": "Monarchy",
-      "period": "2018 a.t.b.",
-      "location": "Pendragon",
+      "company": "Sailfish Marina",
+      "role": "Dockhand",
+      "type": "Part-time",
+      "period": "Aug 2023 – Mar 2025",
+      "location": "Palm Beach Shores, FL",
       "details": [
-        "Seized the throne through strategic manipulation and Geass",
-        "Implemented sweeping reforms to dismantle the aristocracy",
-        "Executed the Zero Requiem plan to bring world peace",
-        "United the world against a common enemy to end conflict"
-      ]
-    },
-    {
-      "company": "Ashford Academy",
-      "role": "Student Council Vice President",
-      "type": "Education",
-      "period": "2016 - 2018 a.t.b.",
-      "location": "Tokyo Settlement",
-      "details": [
-        "Maintained perfect academic standing while leading a double life",
-        "Organized school festivals and cultural events",
-        "Protected the identity of exiled royalty while attending classes"
+        "Tracked and reconciled fuel inventory for 50+ vessels daily, maintaining 99%+ inventory accuracy",
+        "Operated point-of-sale systems and handled cash/credit transactions totaling $10k+ per shift",
+        "Delivered high-volume customer service during peak seasons, processing 100+ daily interactions"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Ashford Academy",
-      "degree": "High School Diploma",
-      "field": "General Studies",
-      "period": "2015 - 2018 a.t.b.",
-      "location": "Tokyo Settlement, Area 11",
-      "grade": "Valedictorian",
+      "institution": "Palm Beach Atlantic University",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "period": "2022 – 2026",
+      "location": "West Palm Beach, FL",
+      "grade": "GPA: 3.93/4.0",
       "details": [
-        "Top academic performer across all subjects",
-        "Vice President of the Student Council",
-        "Champion of the school chess club"
-      ]
-    },
-    {
-      "institution": "Imperial Britannian Military Academy",
-      "degree": "Strategic Command Certification",
-      "field": "Military Strategy",
-      "period": "2010 - 2012 a.t.b.",
-      "location": "Pendragon, Britannia",
-      "details": [
-        "Trained in advanced tactical warfare and command structure",
-        "Studied Knightmare Frame combat theory",
-        "Excelled in psychological warfare techniques"
+        "Provost's List (5x)",
+        "President's List (2x)"
       ]
     }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "Zero Requiem",
-      "slug": "zero-requiem",
-      "description": "The ultimate plan to end all conflict by uniting the world against a common enemy, achieving lasting peace through sacrifice.",
-      "image": "https://wallpapercave.com/wp/4FBo5yQ.jpg",
-      "tags": [
-        "Strategy",
-        "Peace",
-        "Sacrifice"
+      "title": "3D Rubik's Cube Simulator",
+      "slug": "rubiks-cube",
+      "description": "Interactive 3D simulator with real-time rotation using matrix transformations. Supports 20+ move sequences with undo/redo functionality. Rendered at 60+ FPS through optimized OpenGL pipeline.",
+      "image": "/images/rubiks/rubik1.png",
+      "gallery": [
+        "/images/rubiks/rubik2.png",
+        "/images/rubiks/rubik3.png"
       ],
-      "github": null,
-      "demo": null,
+      "tags": ["C++", "OpenGL", "3D Graphics", "Matrix Math"],
+      "github": "https://github.com/jaxjoelliott/rubixcube",
+      "demo": "",
       "featured": true
     },
     {
       "id": "2",
-      "title": "Black Knights Formation",
-      "slug": "black-knights",
-      "description": "Created a revolutionary military organization from scattered resistance groups, becoming the world's most powerful independent army.",
-      "image": "https://wallpapercave.com/wp/wp2883518.jpg",
-      "tags": [
-        "Leadership",
-        "Military",
-        "Revolution"
+      "title": "TaskFlow – Task Management App",
+      "slug": "taskflow",
+      "description": "Full-stack task management application with React frontend and Node.js/Express REST API. Features JWT authentication, protected routes, task CRUD operations, and MongoDB database.",
+      "image": "/images/taskflow/tm1.png",
+      "gallery": [
+        "/images/taskflow/tm2.png",
+        "/images/taskflow/tm3.png"
       ],
-      "github": null,
-      "demo": null,
-      "featured": true
-    },
-    {
-      "id": "3",
-      "title": "United Federation of Nations",
-      "slug": "ufn",
-      "description": "Diplomatic achievement uniting 47 nations against the Britannian Empire, establishing a democratic world order.",
-      "image": "https://wallpapercave.com/wp/yO2TljR.jpg",
-      "tags": [
-        "Diplomacy",
-        "Politics",
-        "Unity"
-      ],
-      "github": null,
-      "demo": null,
-      "featured": true
-    },
-    {
-      "id": "4",
-      "title": "Geass Strategic Applications",
-      "slug": "geass-strategy",
-      "description": "Mastered the Power of Absolute Obedience, developing tactical frameworks for its ethical and strategic deployment.",
-      "image": "https://wallpapercave.com/wp/wp2883490.jpg",
-      "tags": [
-        "Geass",
-        "Power",
-        "Control"
-      ],
-      "github": null,
-      "demo": null,
+      "tags": ["React", "Node.js", "MongoDB", "JWT", "Express"],
+      "github": "https://github.com/jaxjoelliott/task-manager-app",
+      "demo": "https://task-manager-app-mauve-tau.vercel.app",
       "featured": true
     }
   ],
-  "blogs": [
-    {
-      "slug": "the-power-of-geass",
-      "title": "The Power of Geass: Understanding Absolute Obedience",
-      "date": "2018-03-15",
-      "excerpt": "An exploration of the Geass power, its origins from C.C., and the ethical implications of commanding absolute obedience.",
-      "tags": [
-        "Geass",
-        "Philosophy",
-        "Power"
-      ],
-      "coverImage": "https://wallpapercave.com/wp/wp2883497.jpg",
-      "readingTime": "5 min"
-    },
-    {
-      "slug": "strategic-warfare",
-      "title": "Strategic Warfare: Lessons from the Black Rebellion",
-      "date": "2018-02-20",
-      "excerpt": "Breaking down the tactical decisions that led to the success of the Black Rebellion and the liberation of Japan.",
-      "tags": [
-        "Strategy",
-        "Military",
-        "Tactics"
-      ],
-      "coverImage": "https://wallpapercave.com/wp/wp2883502.jpg",
-      "readingTime": "8 min"
-    },
-    {
-      "slug": "chess-and-war",
-      "title": "Chess and War: The Art of Sacrifice",
-      "date": "2018-01-10",
-      "excerpt": "How the principles of chess apply to real-world strategy, and why sometimes the king must lead from the front.",
-      "tags": [
-        "Chess",
-        "Leadership",
-        "Philosophy"
-      ],
-      "coverImage": "https://wallpapercave.com/wp/wp2883510.jpg",
-      "readingTime": "6 min"
-    }
-  ],
+  "blogs": [],
   "quotes": [
-    "The only ones who should kill are those who are prepared to be killed.",
-    "If the king doesn't move, then his subjects won't follow.",
-    "What do you do when there is an evil you cannot defeat by just means?",
-    "I will not repent. This is my path, and I will walk it to the end."
+    "The only things you can control are your attitude and effort."
   ]
 }

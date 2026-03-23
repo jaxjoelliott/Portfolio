@@ -141,7 +141,7 @@ export default function Hero({ profile, roles, socials }: HeroProps) {
             }}
           >
             <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            Drop a mail
+            Drop an email
           </motion.a>
         </div>
 
