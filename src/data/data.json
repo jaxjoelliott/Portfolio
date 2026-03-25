@@ -142,7 +142,7 @@
       "id": "2",
       "title": "TaskFlow – Task Management App",
       "slug": "taskflow",
-      "description": "Full-stack task management application with React frontend and Node.js/Express REST API. Features JWT authentication, protected routes, task CRUD operations, and MongoDB database.",
+      "description": "Full-stack task management application with React frontend and Node.js/Express REST API. Features JWT authentication, protected routes, task CRUD operations, and MongoDB database. Live deployment at https://jacksonelliott.netlify.app/",
       "image": "/images/taskflow/tm1.png",
       "gallery": [
         "/images/taskflow/tm2.png",
