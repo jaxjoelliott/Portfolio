@@ -1,6 +1,6 @@
 # Portfolio – jacksonelliott.netlify.app
 
-Personal portfolio site built with React + Vite + TypeScript.
+Personal portfolio site template built with React + Vite + TypeScript.
 
 ## Live Site
 https://jacksonelliott.netlify.app
