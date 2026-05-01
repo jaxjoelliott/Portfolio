@@ -22,7 +22,6 @@ interface BlogProps {
 export default function Blog({ blogs }: BlogProps) {
   const { colors, mode } = useTheme();
   const [showAll, setShowAll] = useState(false);
-  const [showAll, setShowAll] = useState(false);
 
   if (!blogs || blogs.length === 0) return null;
 
