@@ -22,6 +22,9 @@ interface BlogProps {
 export default function Blog({ blogs }: BlogProps) {
   const { colors, mode } = useTheme();
   const [showAll, setShowAll] = useState(false);
+  const [showAll, setShowAll] = useState(false);
+
+  if (!blogs || blogs.length === 0) return null;
 
   const displayedBlogs = showAll ? blogs : blogs.slice(0, INITIAL_SHOW_COUNT);
   const hasMore = blogs.length > INITIAL_SHOW_COUNT;
@@ -32,7 +35,8 @@ export default function Blog({ blogs }: BlogProps) {
       className="mb-5 sm:mb-6 relative overflow-hidden rounded-2xl p-4 sm:p-6 backdrop-blur-xl border"
       style={{
         background: getSectionGradient(colors, mode),
-        borderColor: mode === "dark" ? "rgba(255,255,255,0.1)" : "rgba(0,0,0,0.05)",
+        borderColor:
+          mode === "dark" ? "rgba(255,255,255,0.1)" : "rgba(0,0,0,0.05)",
       }}
     >
       <div
@@ -43,9 +47,14 @@ export default function Blog({ blogs }: BlogProps) {
         <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-5">
           <div
             className="h-6 sm:h-8 w-1 rounded-full"
-            style={{ background: `linear-gradient(to bottom, ${colors.secondary}, ${colors.primary})` }}
+            style={{
+              background: `linear-gradient(to bottom, ${colors.secondary}, ${colors.primary})`,
+            }}
           />
-          <h2 className="text-base sm:text-lg font-semibold" style={{ color: colors.foreground }}>
+          <h2
+            className="text-base sm:text-lg font-semibold"
+            style={{ color: colors.foreground }}
+          >
             Thoughts & Writing
           </h2>
         </div>
@@ -65,16 +74,31 @@ export default function Blog({ blogs }: BlogProps) {
               whileHover={{ x: 4 }}
               className="flex gap-3 sm:gap-4 rounded-xl border p-2.5 sm:p-3 transition-all group backdrop-blur-md cursor-pointer"
               style={{
-                backgroundColor: mode === "dark" ? "rgba(255,255,255,0.03)" : "rgba(255,255,255,0.5)",
-                borderColor: mode === "dark" ? "rgba(255,255,255,0.08)" : "rgba(0,0,0,0.05)",
+                backgroundColor:
+                  mode === "dark"
+                    ? "rgba(255,255,255,0.03)"
+                    : "rgba(255,255,255,0.5)",
+                borderColor:
+                  mode === "dark"
+                    ? "rgba(255,255,255,0.08)"
+                    : "rgba(0,0,0,0.05)",
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.borderColor = `${colors.primary}50`;
-                e.currentTarget.style.backgroundColor = mode === "dark" ? "rgba(255,255,255,0.06)" : "rgba(255,255,255,0.7)";
+                e.currentTarget.style.backgroundColor =
+                  mode === "dark"
+                    ? "rgba(255,255,255,0.06)"
+                    : "rgba(255,255,255,0.7)";
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = mode === "dark" ? "rgba(255,255,255,0.08)" : "rgba(0,0,0,0.05)";
-                e.currentTarget.style.backgroundColor = mode === "dark" ? "rgba(255,255,255,0.03)" : "rgba(255,255,255,0.5)";
+                e.currentTarget.style.borderColor =
+                  mode === "dark"
+                    ? "rgba(255,255,255,0.08)"
+                    : "rgba(0,0,0,0.05)";
+                e.currentTarget.style.backgroundColor =
+                  mode === "dark"
+                    ? "rgba(255,255,255,0.03)"
+                    : "rgba(255,255,255,0.5)";
               }}
             >
               <div className="relative w-16 h-16 sm:w-24 sm:h-24 rounded-lg overflow-hidden flex-shrink-0 bg-black">
@@ -100,7 +124,10 @@ export default function Blog({ blogs }: BlogProps) {
                   >
                     {blog.title}
                   </h3>
-                  <div className="flex items-center gap-1.5 sm:gap-2 text-[10px] sm:text-xs mb-1 sm:mb-2" style={{ color: `${colors.foreground}80` }}>
+                  <div
+                    className="flex items-center gap-1.5 sm:gap-2 text-[10px] sm:text-xs mb-1 sm:mb-2"
+                    style={{ color: `${colors.foreground}80` }}
+                  >
                     <span>{blog.date}</span>
                     {blog.readingTime && (
                       <span className="flex items-center gap-0.5 sm:gap-1">
@@ -116,7 +143,10 @@ export default function Blog({ blogs }: BlogProps) {
                       key={tag}
                       className="text-[9px] sm:text-[10px] px-1.5 sm:px-2 py-0.5 rounded-md"
                       style={{
-                        backgroundColor: mode === "dark" ? "rgba(255,255,255,0.1)" : "rgba(0,0,0,0.05)",
+                        backgroundColor:
+                          mode === "dark"
+                            ? "rgba(255,255,255,0.1)"
+                            : "rgba(0,0,0,0.05)",
                         color: `${colors.foreground}99`,
                       }}
                     >
@@ -142,8 +172,14 @@ export default function Blog({ blogs }: BlogProps) {
               onClick={() => setShowAll(!showAll)}
               className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs sm:text-sm font-medium transition-all duration-300 border cursor-pointer"
               style={{
-                background: mode === "dark" ? `${colors.secondary}15` : `${colors.secondary}10`,
-                borderColor: mode === "dark" ? `${colors.secondary}30` : `${colors.secondary}20`,
+                background:
+                  mode === "dark"
+                    ? `${colors.secondary}15`
+                    : `${colors.secondary}10`,
+                borderColor:
+                  mode === "dark"
+                    ? `${colors.secondary}30`
+                    : `${colors.secondary}20`,
                 color: mode === "dark" ? colors.highlight : colors.primary,
               }}
             >
