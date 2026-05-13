@@ -32,6 +32,11 @@
       "color": "#3776AB"
     },
     {
+      "name": "Terraform",
+      "icon": "code",
+      "color": "#7B42BC"
+    },
+    {
       "name": "TypeScript",
       "icon": "code",
       "color": "#3178C6"
