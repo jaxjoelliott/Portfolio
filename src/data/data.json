@@ -99,6 +99,19 @@
   ],
   "experience": [
     {
+      "company": "Admiral",
+      "role": "Software Developer",
+      "type": "Contract",
+      "period": "Jul 2026 – Present",
+      "location": "Fort Lauderdale, FL · Remote",
+      "details": [
+        "Engaged as a software development contractor to design, develop, test, and maintain HarborMoor's software applications and technology platforms",
+        "Build new features and improve existing functionality across production systems",
+        "Support the reliability and scalability of production systems",
+        "Collaborate closely with product and engineering teams on technical problem-solving"
+      ]
+    },
+    {
       "company": "REDVANLY",
       "role": "Assistant Store Manager",
       "type": "Full-time",
