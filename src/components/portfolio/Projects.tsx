@@ -76,11 +76,15 @@ export default function Projects({ projects }: ProjectsProps) {
                   className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                 />
                 <div className="absolute inset-0 flex items-center justify-center p-3 sm:p-4">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-[90%] sm:w-[85%] h-[85%] sm:h-[80%] object-cover rounded-lg shadow-2xl transition-all duration-500 group-hover:scale-[1.02]"
-                  />
+                  {project.image ? (
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-[90%] sm:w-[85%] h-[85%] sm:h-[80%] object-cover rounded-lg shadow-2xl transition-all duration-500 group-hover:scale-[1.02]"
+                    />
+                  ) : (
+                    <span className="text-white/80 text-sm sm:text-base font-mono text-center px-4">{project.title}</span>
+                  )}
                 </div>
                 <div className="absolute top-3 right-3 flex gap-1.5 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10">
                   {project.github && (

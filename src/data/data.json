@@ -7,12 +7,17 @@
     "handle": "jaxjoelliott",
     "avatar": "images/pfp.jfif",
     "banner": "images/banner.jfif",
-    "bio": "CS Graduate | 3.93 GPA | Backend & Cloud Developer",
+    "bio": "CS Graduate | 3.93 GPA | Backend, Cloud & AI-Assisted Development",
     "location": "West Palm Beach, FL",
     "resumeUrl": "resume/Jackson_Elliott_Resume.pdf",
     "email": "jaxjoelliott@gmail.com"
   },
-  "roles": ["Backend Developer", "Cloud Engineer", "Full-Stack Developer"],
+  "roles": [
+    "Backend Developer",
+    "Cloud Engineer",
+    "Full-Stack Developer",
+    "AI-Augmented Engineer"
+  ],
   "socials": [
     {
       "name": "GitHub",
@@ -95,6 +100,31 @@
       "name": "OpenGL",
       "icon": "code",
       "color": "#5586A4"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "database",
+      "color": "#4169E1"
+    },
+    {
+      "name": "Docker",
+      "icon": "server",
+      "color": "#2496ED"
+    },
+    {
+      "name": "GraphQL",
+      "icon": "code",
+      "color": "#E10098"
+    },
+    {
+      "name": "Anthropic SDK",
+      "icon": "brain",
+      "color": "#D97757"
+    },
+    {
+      "name": "AI-Assisted Development",
+      "icon": "brain",
+      "color": "#8B5CF6"
     }
   ],
   "experience": [
@@ -102,13 +132,15 @@
       "company": "Admiral",
       "role": "Software Developer",
       "type": "Contract",
-      "period": "Jul 2026 – Present",
+      "period": "Jul 2026 – Sep 2026",
       "location": "Fort Lauderdale, FL · Remote",
       "details": [
-        "Engaged as a software development contractor to design, develop, test, and maintain HarborMoor's software applications and technology platforms",
-        "Build new features and improve existing functionality across production systems",
-        "Support the reliability and scalability of production systems",
-        "Collaborate closely with product and engineering teams on technical problem-solving"
+        "Worked within an AI-assisted software development lifecycle, using AI coding tools (Cursor, GitHub Copilot) alongside the Anthropic SDK to speed up planning, implementation, and debugging while keeping every change under human code review and CI",
+        "Opened 16 pull requests across 18 tickets in a production vendor management portal (Nx monorepo), with 6 tickets shipped to production and every PR through code review and CI",
+        "Delivered production features and fixes across check-in kiosk, vendor agreement, insurance certificate email, and staff access workflows, including a same-day fix for duplicate reminder emails",
+        "Stabilized and migrated a production Node.js, TypeScript, and React CRM: resolved 19+ crash-level bugs across 21 files and moved the database from SQLite to AWS RDS Postgres",
+        "Replaced 3 Zapier automations with an event-driven AWS Lambda architecture (Function URLs, least-privilege IAM per function, Secrets Manager) to reduce SaaS costs",
+        "Built and ran a PostgreSQL-backed internal tool on RDS with role-scoped access control and parameterized queries, used by a non-technical operations team for real-time data edits"
       ]
     },
     {
@@ -118,10 +150,7 @@
       "period": "Sep 2025 – May 2026",
       "location": "West Palm Beach, FL",
       "details": [
-        "Manage daily store operations including merchandising, inventory, and replenishment orders",
-        "Utilize Shopify to track inventory, process orders, and maintain digital product listings",
-        "Supervised a team of 4 employees, coordinating daily operations, scheduling, and performance oversight",
-        "Collaborate with Director of Business Development on operational strategy and process improvement"
+        "Managed store operations including scheduling, training, inventory tracking, stock replenishment, and digital product listings in Shopify and NetSuite"
       ]
     },
     {
@@ -159,9 +188,37 @@
       "slug": "rubiks-cube",
       "description": "Interactive 3D simulator with real-time rotation using matrix transformations. Supports 20+ move sequences with undo/redo functionality. Rendered at 60+ FPS through optimized OpenGL pipeline.",
       "image": "/images/rubiks/rubiks-demo.gif",
-      "gallery": ["/images/rubiks/rubik2.png", "/images/rubiks/rubik3.png"],
-      "tags": ["C++", "OpenGL", "3D Graphics", "Matrix Math"],
+      "gallery": [
+        "/images/rubiks/rubik2.png",
+        "/images/rubiks/rubik3.png"
+      ],
+      "tags": [
+        "C++",
+        "OpenGL",
+        "3D Graphics",
+        "Matrix Math"
+      ],
       "github": "https://github.com/jaxjoelliott/rubiks-cube",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "id": "4",
+      "title": "aws-job-status-api – Async Job Processing API",
+      "slug": "aws-job-status-api",
+      "description": "Asynchronous job processing API on AWS Lambda (Node.js 22), API Gateway, SQS, and DynamoDB, tracking jobs through PENDING, PROCESSING, and COMPLETED states. Includes a dead letter queue with a 3-retry redrive policy and a CloudWatch queue depth alarm, tested with Jest and Postman, with 100% of infrastructure in Terraform and a scoped IAM role per Lambda.",
+      "image": "",
+      "gallery": [],
+      "tags": [
+        "TypeScript",
+        "AWS Lambda",
+        "API Gateway",
+        "SQS",
+        "DynamoDB",
+        "CloudWatch",
+        "Terraform"
+      ],
+      "github": "https://github.com/jaxjoelliott/aws-job-status-api",
       "demo": "",
       "featured": true
     },
@@ -169,7 +226,7 @@
       "id": "3",
       "title": "ApplicationFlow – Serverless Job Tracker",
       "slug": "applicationflow",
-      "description": "Serverless REST API built on AWS for tracking job applications. Five Lambda functions behind API Gateway with DynamoDB as the data store. 100% infrastructure as code with Terraform including per-function least-privilege IAM policies, remote state in S3, and automated CI/CD via GitHub Actions.",
+      "description": "Serverless REST API with 5 endpoints on AWS Lambda and API Gateway, with DynamoDB as the data store. Infrastructure in Terraform (remote state in S3), including per-function least-privilege IAM policies, with automated deployments via GitHub Actions.",
       "image": "/images/applicationflow/demo.png",
       "gallery": [],
       "tags": [
@@ -190,13 +247,24 @@
       "slug": "taskflow",
       "description": "Full-stack task management application with React frontend and Node.js/Express REST API. Features JWT authentication, protected routes, task CRUD operations, and MongoDB database. Live deployment at https://jacksonelliott.netlify.app/",
       "image": "/images/taskflow/tm1.png",
-      "gallery": ["/images/taskflow/tm2.png", "/images/taskflow/tm3.png"],
-      "tags": ["React", "Node.js", "MongoDB", "JWT", "Express"],
+      "gallery": [
+        "/images/taskflow/tm2.png",
+        "/images/taskflow/tm3.png"
+      ],
+      "tags": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "JWT",
+        "Express"
+      ],
       "github": "https://github.com/jaxjoelliott/task-manager-app",
       "demo": "https://task-manager-app-mauve-tau.vercel.app",
       "featured": true
     }
   ],
   "blogs": [],
-  "quotes": ["The only things you can control are your attitude and effort."]
+  "quotes": [
+    "The only things you can control are your attitude and effort."
+  ]
 }
